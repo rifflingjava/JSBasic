@@ -1,0 +1,124 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'chart.js',
+1 verbose cli   '--save' ]
+2 info using npm@2.15.9
+3 info using node@v4.6.1
+4 verbose install initial load of D:\dev\projects\JavaScript\gui\chart_js\package.json
+5 verbose readDependencies loading dependencies from D:\dev\projects\JavaScript\gui\chart_js\package.json
+6 silly cache add args [ 'chart.js', null ]
+7 verbose cache add spec chart.js
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'chart.js',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'chart.js',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed chart.js@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for chart.js
+11 info addNameTag [ 'chart.js', 'latest' ]
+12 silly mapToRegistry name chart.js
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'chart.js',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'chart.js',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/chart.js
+17 verbose addNameTag registry:https://registry.npmjs.org/chart.js not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/chart.js
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 22:27:01
+21 verbose request id 9a1b91eeff6bd542
+22 http request GET https://registry.npmjs.org/chart.js
+23 http 200 https://registry.npmjs.org/chart.js
+24 verbose headers { server: 'nginx/1.10.1',
+24 verbose headers   'content-type': 'application/json',
+24 verbose headers   'last-modified': 'Sat, 12 Nov 2016 18:01:22 GMT',
+24 verbose headers   etag: 'W/"582758f2-b30c"',
+24 verbose headers   'content-encoding': 'gzip',
+24 verbose headers   'cache-control': 'max-age=300',
+24 verbose headers   'content-length': '5462',
+24 verbose headers   'accept-ranges': 'bytes',
+24 verbose headers   date: 'Sat, 26 Nov 2016 14:27:14 GMT',
+24 verbose headers   via: '1.1 varnish',
+24 verbose headers   age: '0',
+24 verbose headers   connection: 'keep-alive',
+24 verbose headers   'x-served-by': 'cache-lcy1141-LCY',
+24 verbose headers   'x-cache': 'HIT',
+24 verbose headers   'x-cache-hits': '1',
+24 verbose headers   'x-timer': 'S1480170434.770731,VS0,VE107',
+24 verbose headers   vary: 'Accept-Encoding' }
+25 silly get cb [ 200,
+25 silly get   { server: 'nginx/1.10.1',
+25 silly get     'content-type': 'application/json',
+25 silly get     'last-modified': 'Sat, 12 Nov 2016 18:01:22 GMT',
+25 silly get     etag: 'W/"582758f2-b30c"',
+25 silly get     'content-encoding': 'gzip',
+25 silly get     'cache-control': 'max-age=300',
+25 silly get     'content-length': '5462',
+25 silly get     'accept-ranges': 'bytes',
+25 silly get     date: 'Sat, 26 Nov 2016 14:27:14 GMT',
+25 silly get     via: '1.1 varnish',
+25 silly get     age: '0',
+25 silly get     connection: 'keep-alive',
+25 silly get     'x-served-by': 'cache-lcy1141-LCY',
+25 silly get     'x-cache': 'HIT',
+25 silly get     'x-cache-hits': '1',
+25 silly get     'x-timer': 'S1480170434.770731,VS0,VE107',
+25 silly get     vary: 'Accept-Encoding' } ]
+26 verbose get saving chart.js to C:\Users\gongyo\AppData\Roaming\npm-cache\registry.npmjs.org\chart.js\.cache.json
+27 verbose correctMkdir C:\Users\gongyo\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+28 silly addNameTag next cb for chart.js with tag latest
+29 silly addNamed chart.js@2.4.0
+30 verbose addNamed "2.4.0" is a plain semver version for chart.js
+31 silly mapToRegistry name chart.js
+32 silly mapToRegistry using default registry
+33 silly mapToRegistry registry https://registry.npmjs.org/
+34 silly mapToRegistry data Result {
+34 silly mapToRegistry   raw: 'chart.js',
+34 silly mapToRegistry   scope: null,
+34 silly mapToRegistry   name: 'chart.js',
+34 silly mapToRegistry   rawSpec: '',
+34 silly mapToRegistry   spec: 'latest',
+34 silly mapToRegistry   type: 'tag' }
+35 silly mapToRegistry uri https://registry.npmjs.org/chart.js
+36 verbose addRemoteTarball https://registry.npmjs.org/chart.js/-/chart.js-2.4.0.tgz not in flight; adding
+37 verbose addRemoteTarball [ 'https://registry.npmjs.org/chart.js/-/chart.js-2.4.0.tgz',
+37 verbose addRemoteTarball   '44198073f0f43e5e16662e108420d92652a3c9a3' ]
+38 info retry fetch attempt 1 at 22:27:08
+39 info attempt registry request try #1 at 22:27:08
+40 http fetch GET https://registry.npmjs.org/chart.js/-/chart.js-2.4.0.tgz
+41 http fetch 200 https://registry.npmjs.org/chart.js/-/chart.js-2.4.0.tgz
+42 info retry will retry, error on last attempt: Error: read ECONNRESET
+43 info retry will retry, error on last attempt: Error: read ECONNRESET
+44 silly fetchAndShaCheck shasum 44198073f0f43e5e16662e108420d92652a3c9a3
+45 verbose stack Error: shasum check failed for C:\Users\gongyo\AppData\Local\Temp\npm-7084-460bcf68\registry.npmjs.org\chart.js\-\chart.js-2.4.0.tgz
+45 verbose stack Expected: 44198073f0f43e5e16662e108420d92652a3c9a3
+45 verbose stack Actual:   ce70340c9adceb59f2fe7b6383f39e2a9cf3bccc
+45 verbose stack From:     https://registry.npmjs.org/chart.js/-/chart.js-2.4.0.tgz
+45 verbose stack     at C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:25:8
+45 verbose stack     at ReadStream.<anonymous> (C:\Program Files\nodejs\node_modules\npm\node_modules\sha\index.js:72:7)
+45 verbose stack     at emitNone (events.js:72:20)
+45 verbose stack     at ReadStream.emit (events.js:166:7)
+45 verbose stack     at endReadableNT (_stream_readable.js:921:12)
+45 verbose stack     at nextTickCallbackWith2Args (node.js:442:9)
+45 verbose stack     at process._tickCallback (node.js:356:17)
+46 verbose cwd D:\dev\projects\JavaScript\gui\chart_js
+47 error Windows_NT 6.1.7601
+48 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "chart.js" "--save"
+49 error node v4.6.1
+50 error npm  v2.15.9
+51 error shasum check failed for C:\Users\gongyo\AppData\Local\Temp\npm-7084-460bcf68\registry.npmjs.org\chart.js\-\chart.js-2.4.0.tgz
+51 error Expected: 44198073f0f43e5e16662e108420d92652a3c9a3
+51 error Actual:   ce70340c9adceb59f2fe7b6383f39e2a9cf3bccc
+51 error From:     https://registry.npmjs.org/chart.js/-/chart.js-2.4.0.tgz
+52 error If you need help, you may report this error at:
+52 error     <https://github.com/npm/npm/issues>
+53 verbose exit [ 1, true ]
